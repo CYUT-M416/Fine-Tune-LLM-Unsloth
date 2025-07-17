@@ -3,13 +3,14 @@ Miniforge3-Linux-x86_64.sh
 
 # Environment and Data Directories
 xformers/
-data/
+data/*
 
 # Directories within 'code/' that should be ignored
 code/Meta-Llama-3.1-8B-Instruct-bnb-4bit
 code/lora_model/
 code/outputs/
 code/unsloth_compiled_cache/
+code/Llama3_1_(8B)_Alpaca_backup.ipynb
 
 # General ignores for common temporary/generated files within 'code/'
 # Add more as needed if other temporary files are created here
